@@ -1,6 +1,7 @@
 header,
 body,
-.grid {
+.grid,
+.upperLayer {
     display: flex;
 }
 
@@ -101,6 +102,11 @@ input[type="reset"] {
     border-color: black;
 }
 
+
+.color:active{
+    scale:0.8;
+}
+
 #white{
     background-color: white;
     
@@ -118,4 +124,23 @@ input[type="reset"] {
 
 #green{
     background-color: green;
+}
+
+
+
+.upperLayer{
+    justify-content: center;
+    align-items: center;
+    margin-left: 160px;
+}
+
+.sliderInput {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    height: 50px;
+    padding: 0;
+    margin: 0;
 }

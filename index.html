@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,39 +8,53 @@
 
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
     <header>
         <div class="name">Etch-a-Sketch</div>
     </header>
 
-    <div class="grid">
-        <div class="colorChoice">
-            <button class="color" id="white">
+    <div class="upperLayer">
+        <div></div>
+        <div class="grid">
+            <div class="colorChoice">
+                <button class="color" id="white">
 
-            </button>
-            <button class="color" id="black">
+                </button>
+                <button class="color" id="black">
 
-            </button>
-            <button class="color" id="red">
+                </button>
+                <button class="color" id="red">
 
-            </button>
-            <button class="color" id="yellow">
+                </button>
+                <button class="color" id="yellow">
 
-            </button>
-            <button class="color" id="green">
+                </button>
+                <button class="color" id="green">
 
-            </button>
+                </button>
+            </div>
+            <main class="main">
+
+            </main>
+
+            <button class="reset">Reset</button>
+
         </div>
-        <main class="main">
-           
-        </main>
-        <button class="reset">Reset</button>
+
+
+        <input type="range" min="1" max="96" value="8" step="16" class="sliderInput" id="myRange">
+
+
     </div>
-    
-    
+
+
+
+
     <footer></footer>
 
     <script src="script.js"></script>
 </body>
+
 </html>
